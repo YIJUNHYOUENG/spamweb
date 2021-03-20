@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="google" content="notranslate">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: bisque;
+        }
+
+        .animation {
+            display: block;
+            width: 7%;
+            height: 30vw;
+            float: left;
+        }
+
+        .animation[id="1"] {
+            background-color: white;
+            transform: skew(10deg);
+            width: 15%;
+            margin-left: -4.4%;
+            text-decoration: none;
+            border-left: 3px solid black;
+        }
+
+        .animation[id="2"] {
+            background-color: white;
+            transform: skew(10deg);
+            text-decoration: none;
+            border-left: 3px solid black;
+        }
+
+        .animation[id="3"] {
+            background-color: white;
+            transform: skew(10deg);
+            text-decoration: none;
+            border-left: 3px solid black;
+        }
+
+        .animation[id="34"] {
+            background-color: white;
+            transform: skew(10deg);
+            text-decoration: none;
+            border-left: 3px solid black;
+        }
+
+        .animation[id="33"] {
+            background-color: white;
+            transform: skew(10deg);
+            text-decoration: none;
+            border-left: 3px solid black;
+            border-right: 3px solid black;
+        }
+
+        .animation[id="44"] {
+            background-color: white;
+            transform: skew(10deg);
+            text-decoration: none;
+        }
+
+        .animation[id="4"] {
+            background-color: white;
+            width: 115vw;
+            margin-left: -4%;
+            text-decoration: none;
+        }
+
+
+        .animation:hover[id="1"] {
+            width: 66.88vw;
+        }
+
+        .animation:hover[id="2"] {
+            width: 59vw;
+        }
+
+        .animation:hover[id="3"] {
+            width: 59vw;
+        }
+
+        .animation:hover[id="34"] {
+            width: 59vw;
+        }
+
+        .animation:hover[id="33"] {
+            width: 59vw;
+        }
+
+        h2 {
+            font-size: 4vw;
+            transform: rotate(90deg);
+            margin-left: 30%;
+            margin-top: 12vw;
+            color: black;
+        }
+
+        .fontde[id="11"] {
+            text-align: center;
+            margin-top: 9vw;
+        }
+
+        .fontde[id="22"] {
+            text-align: center;
+            margin-top: 6vw;
+        }
+
+        .fontde[id="33"] {
+            text-align: center;
+            margin-top: 10.7vw;
+        }
+
+        .fontde[id="44"] {
+            text-align: center;
+            margin-top: 7.5vw;
+        }
+
+        .fontde[id="55"] {
+            text-align: center;
+            margin-top: 10vw;
+        }
+
+        .logo {
+            display: none;
+            opacity: 0;
+        }
+
+        .member {
+            opacity: 0;
+            display: none;
+            transform: skew(-10deg);
+        }
+
+        .animation[id="1"]:hover .logo {
+            display: block;
+            opacity: 1;
+            width: 50vw;
+            margin-left: 14vw;
+            margin-top: 8%;
+        }
+
+        .animation[id="3"]:hover .member {
+            display: block;
+            opacity: 1;
+            width: 35vw;
+            margin-left: 30%;
+            margin-top: 2%;
+        }
+
+        .indexhigh {
+            z-index: 5;
+            position: relative;
+        }
+
+        .indexlow {
+            z-index: 1;
+            position: absolute;
+        }
+
+        .animation[id="1"]:hover > .spammain {
+            margin-left: -47.54vw;
+            margin-top: 43.855vw;
+        }
+
+        .animation[id="2"]:hover > .fontde[id="11"] {
+            margin-left: -50vw;
+            margin-top: 12.12vw; 
+        }   
+
+        .animation[id="3"]:hover > .fontde[id="22"] {
+            margin-left: -49.95vw;
+            margin-top: -15.97vw;
+        } 
+
+        .animation[id="34"]:hover > .fontde[id="33"] {
+            margin-left: -50vw;
+            margin-top: 11.84vw; 
+        }     
+  
+        .animation[id="33"]:hover > .fontde[id="44"] {
+            margin-left: -50vw;
+            margin-top: 11.93vw; 
+        }
+
+    </style>
+</head>
+
+<body>
+    <span class="notranslate">
+        <div class="indexhigh">
+            <a href="https://www.youtube.com/" class="animation" id="1"><img src="spamlogo.png" class="logo">
+                <h2 class="spammain">SPAM</h2>
+            </a>
+            <a href="#" class="animation" id="2">
+                <h2 class="fontde" id="11">about</h2>
+            </a>
+            <a href="#" class="animation" id="3"><img src="member.jpg" class="member">
+                <h2 class="fontde" id="22">member</h2>
+            </a>
+            <a href="#" class="animation" id="34">
+                <h2 class="fontde" id="33">join</h2>
+            </a>
+            <a href="#" class="animation" id="33">
+                <h2 class="fontde" id="44">activity</h2>
+            </a>
+            <a href="#" class="animation" id="44">
+                <h2 class="fontde" id="55">amu</h2>
+            </a>
+        </div>
+        <div class="indexlow">
+            <a href="#" class="animation" id="4">
+                <h2 class="fontde" id="66">amufake</h2>
+            </a>
+        </div>
+    </span>
+</body>
+
+</html>
