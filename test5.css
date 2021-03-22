@@ -1,0 +1,230 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+    }
+
+    body {
+        background-color: rgb(61, 61, 61);
+    }
+
+    .animation {
+        display: block;
+        width: 7%;
+        height: 30vw;
+        float: left;
+        background-color: rgb(34, 34, 34);
+    }
+
+    .animation[id="1"] {
+        transform: skew(10deg);
+        width: 15%;
+        margin-left: -4.4%;
+        text-decoration: none;
+        border-left: 3px solid none;
+        filter: brightness(70%);
+    }
+
+    .animation[id="2"] {
+        transform: skew(10deg);
+        text-decoration: none;
+        border-left: 1px solid black;
+        filter: brightness(70%);
+    }
+
+    .animation[id="3"] {
+        transform: skew(10deg);
+        text-decoration: none;
+        border-left: 1px solid black;
+        filter: brightness(70%);
+    }
+
+    .animation[id="34"] {
+        transform: skew(10deg);
+        text-decoration: none;
+        border-left: 1px solid black;
+        filter: brightness(70%);
+    }
+
+    .animation[id="33"] {
+        transform: skew(10deg);
+        text-decoration: none;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        filter: brightness(70%);
+    }
+
+    .animation[id="44"] {
+        transform: skew(10deg);
+        text-decoration: none;
+        filter: brightness(100%);
+    }
+
+    .animation[id="4"] {
+        width: 100vw;
+        text-decoration: none;
+    }
+
+
+    .animation:hover[id="1"] {
+        width: 68.8vw;
+        filter: brightness(100%);
+    }
+
+    .animation:hover[id="2"] {
+        width: 60.8vw;
+        filter: brightness(100%);
+    }
+
+    .animation:hover[id="3"] {
+        width: 60.8vw;
+        filter: brightness(100%);
+    }
+
+    .animation:hover[id="34"] {
+        width: 60.8vw;
+        filter: brightness(100%);
+    }
+
+    .animation:hover[id="33"] {
+        width: 60.8vw;
+        filter: brightness(100%);
+    }
+
+
+    h2 {
+        font-size: 4vw;
+        transform: rotate(90deg);
+        margin-left: 30%;
+        margin-top: 12vw;
+        color: black;
+    }
+
+    .logo {
+        display: none;
+        opacity: 0;
+
+    }
+
+    .member {
+        opacity: 0;
+        display: none;
+        transform: skew(-10deg);
+    }
+
+    .codding {
+        opacity: 0;
+        display: none;
+        transform: skew(-10deg);
+    }
+
+    .spammain {
+        position: fixed;
+        top: 0;
+    }
+
+    .fontde {
+        position: fixed;
+        top: 0;
+        text-align: center;
+    }
+
+    .fontde[id="11"] {
+        left: -1.32vw;
+        top: -2.1vw;
+    }
+
+    .fontde[id="22"] {
+        left: -1.3vw;
+        top: -4.5vw;
+    }
+
+    .fontde[id="33"] {
+        left: -1.3vw;
+    }
+
+    .fontde[id="44"] {
+        left: -1.5vw;
+        top: -3.4vw;
+    }
+
+    .fontde[id="55"] {
+        left: -2vw;
+    }
+
+    .animation[id="1"]:hover .logo {
+        display: block;
+        opacity: 1;
+        width: 50vw;
+        margin-left: 14vw;
+        margin-top: 8%;
+    }
+
+    .animation[id="2"]:hover .codding {
+        display: block;
+        opacity: 1;
+        width: 40vw;
+        margin-left: 13vw;
+        margin-top: 6%;
+    }
+
+    .animation[id="3"]:hover .member {
+        display: block;
+        opacity: 1;
+        width: 35vw;
+        margin-left: 23%;
+        margin-top: 2%;
+    }
+
+    .realspam {
+        width: 40vw;
+        margin-left: 52%;
+        margin-top: 3%;
+    }
+
+    .indexhigh {
+        z-index: 5;
+        position: relative;
+    }
+
+    .indexlow {
+        z-index: 1;
+        position: absolute;
+    }
+
+    .animation[id="1"]:hover>.spammain {
+        left: -16.2vw;
+    }
+
+    .animation[id="2"]:hover>.fontde[id="11"] {
+        left: -19.5vw;
+        top: 0;
+    }
+
+    .animation[id="3"]:hover>.fontde[id="22"] {
+        left: -21.9vw;
+        top: 0;
+    }
+
+    .animation[id="34"]:hover>.fontde[id="33"] {
+        left: -17.398vw;
+        top: 0;
+    }
+
+    .animation[id="33"]:hover>.fontde[id="44"] {
+        left: -21vw;
+        top: 0;
+    }
+
+    .indexhigh:hover>.animation:hover[id="44"] {
+        filter: brightness(100%);
+    }
+
+    .indexhigh:hover>.animation[id="44"] {
+        filter: brightness(70%);
+    }
+
+    .spam:hover:not(.wpdhl) {
+        filter: brightness(100%);
+    }
